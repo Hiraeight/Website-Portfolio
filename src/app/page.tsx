@@ -3,7 +3,7 @@ import { Navigation } from "@/components/sections/navigation";
 import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";
 import { Projects } from "@/components/sections/projects";
-import { SkillSet } from "@/components/sections/skills";
+import { Skillset } from "@/components/sections/skillset";
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
         <Header />
         <Certificates />
         <Projects />
-        <SkillSet />
+        <Skillset />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         

@@ -8,7 +8,7 @@ import { RiTailwindCssFill, RiBootstrapFill, RiNextjsFill } from "react-icons/ri
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaGitAlt, FaGithub, FaFigma, FaNpm, FaSlack } from "react-icons/fa";
 
-export function SkillSet() {
+export function Skills() {
   return (
     <div id="skills" className="max-w-5xl mx-auto px-8 py-4 bg-transparent">
         <h2 className="md:text-3xl text-1xl lg:text-5xl font-bold text-center text-white relative z-20">

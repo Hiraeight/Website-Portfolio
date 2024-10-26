@@ -1,8 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -33,6 +41,7 @@
 
   html, body {
     background-color: rgb(16, 16, 16);
+    font-family: 'Michroma', sans-serif; /* Default font for body */
   }
 
   .dark {
@@ -63,11 +72,36 @@
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 10px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.6);
   }
-  body {
-    @apply bg-background text-foreground;
+
+  .bg-glow {
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 10px rgba(0, 255, 255, 0.7), 0 0 15px rgba(0, 255, 255, 0.6);
+  }
+
+  .glow-effect {
+    position: relative;
+    /* Using pseudo-element for the glow effect */
+  }
+
+  .glow-effect::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 1rem; /* Adjust for your card's border-radius */
+    background: rgba(0, 255, 255, 0.3); /* Glow color */
+    filter: blur(15px); /* Glow intensity */
+    z-index: -1; /* Send the glow behind the card */
+    transition: opacity 0.3s ease; /* Smooth transition */
+    opacity: 0; /* Start invisible */
+  }
+  
+  .glow-effect:hover::before {
+    opacity: 1; /* Show glow on hover */
   }
 }

@@ -9,7 +9,6 @@ import {
   IconTool,
   IconUserCircle,
 } from "@tabler/icons-react";
-import Image from "next/image";
 
 export function Navigation() {
   const links = [

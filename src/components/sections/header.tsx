@@ -7,7 +7,21 @@ export function Header() {
   return (
     <div id="header" className="h-[40rem] w-full bg-transparent flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-5xl text-2xl lg:text-7xl font-bold text-center text-white relative z-20">
-        Design. <span className="text-[rgba(0,255,255)]">Build.</span> Develop.
+        Desig
+        <span className="inline-block relative">
+          {/* Gradient from left (white) to right (rgba(0,255,255)) */}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[rgba(0,255,255)]">
+            n.
+          </span>
+        </span>
+        <span className="text-[rgba(0,255,255)]">Build.</span>
+        <span className="inline-block relative">
+          {/* Gradient from left (white) to right (rgba(0,255,255)) */}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgba(0,255,255)] to-white">
+            D
+          </span>
+        </span>
+        evelop.
       </h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}
@@ -27,7 +41,7 @@ export function Header() {
         />
 
         {/* Radial Gradient to prevent sharp edges */}
-        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
+        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_30%,white)]"></div>
       </div>
     </div>
   );

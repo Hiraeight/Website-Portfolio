@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Navigation } from "@/components/sections/navigation";
 import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";

@@ -2,7 +2,6 @@
 import type { Metadata } from "next";
 import { Michroma } from "next/font/google"; // Import Michroma from Google Fonts
 import "./globals.css";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 // Define the Michroma font
 const michroma = Michroma({

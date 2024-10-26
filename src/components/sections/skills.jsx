@@ -1,7 +1,6 @@
 "use client";
 
 import { Skills } from "../ui/block-animated-card";
-import { GoCopilot } from "react-icons/go";
 import { SiAirtable, SiZapier, SiWebflow, SiTypescript, SiVisualstudio, SiClickup, SiJira } from "react-icons/si";
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact } from "react-icons/io5";
 import { RiTailwindCssFill, RiBootstrapFill, RiNextjsFill } from "react-icons/ri";

@@ -3,7 +3,6 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconCertificate,
   IconHome,
-  IconLink,
   IconMessage,
   IconMessageCode,
   IconTool,

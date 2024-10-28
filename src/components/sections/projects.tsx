@@ -14,7 +14,7 @@ export function Projects() {
       title: "2024",
       content: (
       <div className="flex flex-wrap justify-center gap-4 glow-effect">
-        <div className="card card-compact bg-base-100 w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)]">
+        <div className="card card-compact bg-black w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)]">
         <figure className="relative group">
           <a href="https://little-lemon-zeta-liard.vercel.app/">
             <Image src={LittleLemon} alt="Little Lemon" className="w-full transition duration-300 ease-in-out group-hover:blur-sm"/>

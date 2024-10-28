@@ -18,13 +18,17 @@
 }
 
 .svg {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   stroke: white;
   fill-opacity: 0;
   stroke-width: 3px;
   stroke-dasharray: 4500;
-  animation: draw 8s ease;
+  animation: draw 24s ease;
+}
+
+.backslash {
+  fill: "#5ce1e6";
 }
 
 @keyframes draw {

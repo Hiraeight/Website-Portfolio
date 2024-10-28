@@ -5,7 +5,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 
 export function Certificates() {
   return (
-    <div id="certificates" className="h-[45rem] w-full max-w-5xl mx-auto px-8 bg-transparent">
+    <div id="certificates" className="max-w-5xl mx-auto px-8 bg-transparent">
         <h2 className="md:text-3xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20">
         My Developer Certifications
       </h2>

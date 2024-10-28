@@ -19,7 +19,7 @@ export function Projects() {
           <a href="https://little-lemon-zeta-liard.vercel.app/">
             <Image src={LittleLemon} alt="Little Lemon" className="w-full transition duration-300 ease-in-out group-hover:blur-sm"/>
             <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 border border-white text-white font-bold bg-transparent opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
-              View More
+              Live Preview
             </button>
           </a>
         </figure>

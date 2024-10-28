@@ -13,6 +13,13 @@ import {
 export function Navigation() {
   const links = [
     {
+      title: "Home",
+      icon: (
+        <IconHome className="h-full w-full text-white dark:text-neutral-300" />
+      ),
+      href: "#header",
+    },
+    {
       title: "Certificates",
       icon: (
         <IconCertificate className="h-full w-full text-white dark:text-neutral-300" />
@@ -34,13 +41,6 @@ export function Navigation() {
       href: "#skills",
     },
     {
-      title: "Home",
-      icon: (
-        <IconHome className="h-full w-full text-white dark:text-neutral-300" />
-      ),
-      href: "#header",
-    },
-    {
       title: "About Me",
       icon: (
         <IconUserCircle className="h-full w-full text-white dark:text-neutral-300" />
@@ -51,13 +51,6 @@ export function Navigation() {
       title: "Contact Me",
       icon: (
         <IconMessage className="h-full w-full text-white dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Socials",
-      icon: (
-        <IconLink className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "#",
     },

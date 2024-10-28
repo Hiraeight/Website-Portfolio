@@ -22,7 +22,6 @@ const LoadingPage: React.FC = () => {
       `.${styles.logoName}`,
       {
         y: 50,
-        opacity: 0,
       },
       {
         y: 0,

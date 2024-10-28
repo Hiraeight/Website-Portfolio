@@ -14,7 +14,7 @@ export function Header() {
             n.
           </span>
         </span>
-        <span className="text-[rgba(0,255,255)]">Build.</span>
+        <span className="text-[rgba(0,255,255)] text-glow">Build.</span>
         <span className="inline-block relative">
           {/* Gradient from left (white) to right (rgba(0,255,255)) */}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgba(0,255,255)] to-white">

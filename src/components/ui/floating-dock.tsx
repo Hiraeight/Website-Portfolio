@@ -52,7 +52,7 @@ const FloatingDockMobile = ({
   };
 
   return (
-    <div className={cn("fixed bottom-0 left-0 right-0 block md:hidden z-50", className)}>
+    <div className={cn("fixed bottom-2 right-2 block md:hidden z-50", className)}>
         <AnimatePresence>
             {open && (
             <motion.div

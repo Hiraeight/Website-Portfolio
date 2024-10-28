@@ -1,10 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import { Timeline } from "@/components/ui/timeline";import {
+import { FC } from "react";
+import { Timeline } from "@/components/ui/timeline";
+import {
   IconFrame,
   IconCodeCircle2,
   IconComponents,
 } from "@tabler/icons-react";
+import LittleLemon from '../../app/images/little-lemon.png';
 
 export function Projects() {
   const data = [
@@ -14,19 +17,15 @@ export function Projects() {
       <div className="flex flex-wrap justify-center gap-4 glow-effect">
         <div className="card card-compact bg-base-100 w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)]">
         <figure className="relative group">
-          <a href="#">
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-              className="w-full transition duration-300 ease-in-out group-hover:blur-sm"
-            />
+          <a href="https://little-lemon-zeta-liard.vercel.app/">
+            <Image src={LittleLemon} alt="Little Lemon" className="w-full transition duration-300 ease-in-out group-hover:blur-sm"/>
             <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 px-4 py-2 border border-white text-white font-bold bg-transparent opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out">
               View More
             </button>
           </a>
         </figure>
           <div className="card-body text-white">
-            <h2 className="card-title">Shoes!</h2>
+            <h2 className="card-title">Little Lemon!</h2>
             <p className="font-sans text-zinc-500">If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions font-sans">
               <div className="badge border border-zinc-500 bg-zinc-800">React</div>
@@ -35,42 +34,19 @@ export function Projects() {
               <div className="badge border border-zinc-500 bg-zinc-800">CSS3</div>
             </div>
             <div className="card-actions justify-end">
-              <a href="" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
+              <a href="https://www.figma.com/design/gTg00v2Te5cMmtB4yjU972/Wireframe?node-id=0-1&t=VxavYqoR0Z7M1hHW-1" title="Wireframe" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
                 <IconFrame className="h-full w-full dark:text-neutral-300" />
               </a>
-              <a href="" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
+              <a href="https://www.figma.com/design/HVtEZes8s8DiZlrJV5glOv/Prototype?node-id=0-1&t=UzqvEKHrRq2B4I4k-1" title="Prototype" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
                 <IconComponents className="h-full w-full dark:text-neutral-300" />
               </a>
-              <a href="" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
+              <a href="https://github.com/Hiraeight/Little-Lemon" title="Source Code" className="py-2.5 px-2.5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-white hover:border-[rgba(0,255,255)] hover:text-[rgba(0,255,255)] over:text-white hover:bg-gray-700">
                 <IconCodeCircle2 className="h-full w-full dark:text-neutral-300" />
               </a>
             </div>
           </div>
         </div>
-
-        <div className="card card-compact bg-base-100 w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)]">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes" />
-          </figure>
-          <div className="card-body text-white">
-            <h2 className="card-title">Shoes!</h2>
-            <p className="text-zinc-500">If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions justify-end">
-              <div className="badge badge-outline">React</div>
-              <div className="badge badge-outline">JavaScript</div>
-              <div className="badge badge-outline">HTML5</div>
-              <div className="badge badge-outline">CSS3</div>
-            </div>
-            <div className="card-actions justify-end">
-              <a href="" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-[rgba(0,255,255)] over:text-white hover:bg-gray-700">Wireframe</a>
-              <a href="" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-[rgba(0,255,255)] over:text-white hover:bg-gray-700">Prototype</a>
-              <a href="" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-[rgba(0,255,255)] over:text-white hover:bg-gray-700">Source Code</a>
-              <a href="" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-gray-800 rounded-full border focus:ring-gray-700 text-gray-400 border-[rgba(0,255,255)] over:text-white hover:bg-gray-700">Live</a>
-            </div>
-          </div>
-        </div>
+        
       </div>
       ),
     },

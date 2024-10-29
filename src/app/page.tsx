@@ -7,6 +7,7 @@ import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";
 import { Projects } from "@/components/sections/projects";
 import { Skillset } from "@/components/sections/skillset";
+import { Footer } from '@/components/sections/footer';
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -31,8 +32,8 @@ export default function Home() {
         <Certificates />
         <Projects />
         <Skillset />
+        <Footer />
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
     </div>
   );
 }

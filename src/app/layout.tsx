@@ -1,12 +1,11 @@
 // layout.tsx
 import type { Metadata } from "next";
-import { Michroma } from "next/font/google"; // Import Michroma from Google Fonts
+import { Michroma } from "next/font/google";
 import "./globals.css";
 
-// Define the Michroma font
 const michroma = Michroma({
   weight: "400",
-  subsets: ["latin"], // Specify any subsets you need, default is latin
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -24,6 +23,7 @@ export default function RootLayout({
       <body
         className={`${michroma.className} antialiased`} // Apply Michroma font variable
       >
+        
         {children}
       </body>
     </html>

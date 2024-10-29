@@ -40,7 +40,6 @@
   }
 
   html, body {
-    background-color: rgb(16, 16, 16);
     font-family: 'Michroma', sans-serif; /* Default font for body */
   }
 
@@ -100,7 +99,7 @@
     transition: opacity 0.3s ease; /* Smooth transition */
     opacity: 0; /* Start invisible */
   }
-  
+
   .glow-effect:hover::before {
     opacity: 1; /* Show glow on hover */
   }

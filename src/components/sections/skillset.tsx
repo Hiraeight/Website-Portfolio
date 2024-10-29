@@ -3,6 +3,7 @@ import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact } from "react-ic
 import { RiTailwindCssFill, RiBootstrapFill, RiNextjsFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaGitAlt, FaGithub, FaFigma, FaSlack } from "react-icons/fa";
+import { IconLoader2 } from "@tabler/icons-react"
 
 const skillSections = [
   {
@@ -53,13 +54,13 @@ const skillSections = [
 export const Skillset = () => {
   return (
     <div id="skills" className="px-8 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-3xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-black uppercase rounded-full bg-[rgba(0,255,255)]">
             Learned
           </p>
         </div>
-        <h2 className="max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
+        <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight text-white sm:text-4xl md:mx-auto">
           <span className="relative inline-block text-[rgba(0,255,255)]">
             <svg
               viewBox="0 0 52 24"
@@ -83,9 +84,9 @@ export const Skillset = () => {
                 height="24"
               />
             </svg>
-            <span className="relative text-white">The</span>
+            <span className="relative text-white">Keep</span>
           </span>{' '}
-          quick, brown fox jumps over a lazy dog
+          on <br/>Learning . Progressing . Exploring .
         </h2>
         <p className="font-sans text-base text-zinc-400 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem

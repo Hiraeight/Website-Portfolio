@@ -7,7 +7,10 @@ export function Certificates() {
   return (
     <div id="certificates" className="max-w-5xl mx-auto px-8 bg-transparent">
         <h2 className="md:text-3xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20">
-        My Developer Certifications
+        My Developer C
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[rgba(0,255,255)]">
+            ertifications
+          </span>
       </h2>
       <p className="font-sans text-zinc-400 text-center dark:text-neutral-300 text-base md:text-lg w-full max-w-5xl mx-auto px-8 ">
           I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s

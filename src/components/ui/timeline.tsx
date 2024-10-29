@@ -40,7 +40,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="md:text-3xl text-3xl lg:text-5xl font-bold mb-4 text-white max-w-4xl">
-          Projects
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgba(0,255,255)] to-white">
+            Projects
+          </span>
         </h2>
         <p className="font-sans text-zinc-400 dark:text-neutral-300 text-base md:text-lg max-w-sm">
           I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s

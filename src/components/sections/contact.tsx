@@ -28,8 +28,8 @@ export default function Contact() {
   };
 
   return (
-    <div id='contact' className="isolate bg-black px-6 py-24 sm:py-32 lg:px-8">
-      <div className="mx-auto max-w-2xl text-center">
+    <div className="isolate bg-black px-6 py-24 sm:py-32 lg:px-8">
+      <div id='contact' className="mx-auto max-w-2xl text-center">
         <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgba(0,255,255)] to-white">Contac</span>t Me</h2>
         <p className="mt-2 text-lg/8 text-zinc-500">
           I’m always open to new opportunities, whether you&apos;re an agency looking for a front-end developer or a startup in need of a responsive website.

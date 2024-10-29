@@ -35,11 +35,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   return (
     <div
       className="w-full bg-transparent md:px-10"
-      id="projects"
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="md:text-3xl text-3xl lg:text-5xl font-bold mb-4 text-white max-w-4xl">
+        <h2 id="projects" className="md:text-3xl text-3xl lg:text-5xl font-bold mb-4 text-white max-w-4xl">
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgba(0,255,255)] to-white">
             Projects
           </span>

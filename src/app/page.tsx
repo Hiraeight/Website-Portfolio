@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import LoadingPage from "@/components/sections/loading";
+import { TopNavigation } from '@/components/sections/top-navigation';
 import { Navigation } from "@/components/sections/navigation";
 import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";
@@ -28,6 +29,7 @@ export default function Home() {
   return (
     <div>
       <main className="bg-black">
+        <TopNavigation />
         <Navigation />
         <Header />
         <Certificates />

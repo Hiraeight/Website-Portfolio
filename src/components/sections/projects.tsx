@@ -164,7 +164,7 @@ export function Projects() {
       content: (
         <div>
           <p className="text-zinc-400 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Contributed 4 solutuion components on Front-End Mentor. A good way to practice responsiveness and building with every tools you could think of. Awesome classmates too! Great way to practice and learn new developing skils.
+          Contributed four solution components on Front-End Mentor, which provided an excellent opportunity to practice responsiveness and utilize a variety of development tools. The collaborative environment with talented classmates enriched the learning experience, making it a fantastic way to hone my skills and explore new techniques in web development.
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-zinc-400 dark:text-neutral-300 text-xs md:text-sm hover:text-[rgba(0,255,255)]">

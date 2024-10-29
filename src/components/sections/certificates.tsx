@@ -31,14 +31,14 @@ export const projects = [
   {
     title: "Meta React Native",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "A Specialization in React Native prepared by Meta (facebook) that is consist of 8 course series. I have finished 6 courses and there is 2 more courses to go. Wish me luck!",
     link: "../page/unavailable.tsx",
     badge: "In Progress",
   },
   {
     title: "Harvard CS50x",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Also known as 'Introduction to Computer Science', is a well-known online course that provides a comprehensive introduction to the fundamentals of computer science. It's taught by Professor David Malan and covers topics such as algorithms, data structures, software development, and web programming, using languages like C, Python, and SQL.",
     link: "../page/unavailable.tsx",
     badge: "In Progress",
   },

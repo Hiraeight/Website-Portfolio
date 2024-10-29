@@ -3,7 +3,6 @@ import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoReact } from "react-ic
 import { RiTailwindCssFill, RiBootstrapFill, RiNextjsFill } from "react-icons/ri";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaGitAlt, FaGithub, FaFigma, FaSlack } from "react-icons/fa";
-import { IconLoader2 } from "@tabler/icons-react"
 
 const skillSections = [
   {

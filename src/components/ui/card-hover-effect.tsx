@@ -80,7 +80,7 @@ export const Card = ({
         <div className="p-4">{children}</div>
       </div>
       {badge && (
-        <p className="absolute bottom-4 left-4 inline-block px-3 py-px text-xs font-semibold tracking-wider text-black uppercase rounded-full bg-[rgba(0,255,255)]">
+        <p className="absolute bottom-4 left-7 inline-block px-3 py-px text-xs font-semibold tracking-wider text-black uppercase rounded-full bg-[rgba(0,255,255)]">
           {badge}
         </p>
       )}

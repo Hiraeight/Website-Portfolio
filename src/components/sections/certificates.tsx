@@ -6,7 +6,7 @@ import { HoverEffect } from "../ui/card-hover-effect";
 export function Certificates() {
   return (
     <div id="certificates" className="max-w-5xl mx-auto px-8 bg-transparent">
-        <h2 className="md:text-3xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20">
+        <h2 className="md:text-3xl text-2xl lg:text-5xl font-bold text-center text-white relative z-20 mb-4">
         My Developer C
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-[rgba(0,255,255)]">
             ertifications
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: "Harvard CS50x",
     description:
-      "Also known as 'Introduction to Computer Science', is a well-known online course that provides a comprehensive introduction to the fundamentals of computer science. It's taught by Professor David Malan and covers topics such as algorithms, data structures, software development, and web programming, using languages like C, Python, and SQL.",
+      "Also known as 'Introduction to Computer Science', is a well-known online course that provides a comprehensive introduction to the fundamentals of computer science. 1st week done!",
     link: "../page/unavailable.tsx",
     badge: "In Progress",
   },

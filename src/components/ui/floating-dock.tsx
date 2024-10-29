@@ -191,7 +191,7 @@ function IconContainer({
   const [hovered, setHovered] = useState(false);
 
   return (
-    <Link href={href} onClick={(e) => handleSmoothScroll(e, href)}>
+    <Link href={href} target="_blank" onClick={(e) => handleSmoothScroll(e, href)}>
       <motion.div
         ref={ref}
         style={{ width, height }}

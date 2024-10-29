@@ -7,6 +7,7 @@ import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";
 import { Projects } from "@/components/sections/projects";
 import { Skillset } from "@/components/sections/skillset";
+import Contact from '@/components/sections/contact';
 import { Footer } from '@/components/sections/footer';
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <Certificates />
         <Projects />
         <Skillset />
+        <Contact />
         <Footer />
       </main>
     </div>

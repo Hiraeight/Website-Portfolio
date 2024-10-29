@@ -11,6 +11,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
+    badge?: string; // Optional badge prop
   }[];
   className?: string;
 }) => {
@@ -19,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10",
         className
       )}
     >
@@ -28,14 +29,14 @@ export const HoverEffect = ({
           href={item?.link}
           key={item?.link}
           target="_blank"
-          className="relative group  block p-2 h-full w-full"
+          className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-[rgba(0,255,255)] dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-[rgba(0,255,255)] dark:bg-slate-800/[0.8] block rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
@@ -49,7 +50,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card>
+          <Card badge={item.badge}>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
@@ -62,9 +63,11 @@ export const HoverEffect = ({
 export const Card = ({
   className,
   children,
+  badge,
 }: {
   className?: string;
   children: React.ReactNode;
+  badge?: string; // Add badge prop
 }) => {
   return (
     <div
@@ -76,6 +79,11 @@ export const Card = ({
       <div className="relative z-50">
         <div className="p-4">{children}</div>
       </div>
+      {badge && (
+        <p className="absolute bottom-4 left-4 inline-block px-3 py-px text-xs font-semibold tracking-wider text-black uppercase rounded-full bg-[rgba(0,255,255)]">
+          {badge}
+        </p>
+      )}
     </div>
   );
 };
@@ -104,7 +112,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "font-sans mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
+        "font-sans mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm pb-4",
         className
       )}
     >

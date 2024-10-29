@@ -40,18 +40,11 @@ export function Navigation() {
       href: "#skills",
     },
     {
-      title: "About Me",
-      icon: (
-        <IconUserCircle className="h-full w-full text-white dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
       title: "Contact Me",
       icon: (
         <IconMessage className="h-full w-full text-white dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#contact",
     },
   ];
   return (

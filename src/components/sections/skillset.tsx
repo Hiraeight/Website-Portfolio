@@ -88,8 +88,7 @@ export const Skillset = () => {
           on <br/>Learning . Progressing . Exploring .
         </h2>
         <p className="font-sans text-base text-zinc-400 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          A comprehensive compilation of the skills and tools I've acquired and utilized throughout my journey as a developer.
         </p>
       </div>
 
@@ -103,9 +102,9 @@ export const Skillset = () => {
                 {section.skills.map((skill, skillIndex) => (
                   <li key={skillIndex} className="flex items-center text-white">
                     <div className="sm:mr-4 pr-4">
-                      <div className="h-16 w-16 md:h-16 md:w-16 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-[rgba(0,255,255,0.01)]
+                      <div className="h-12 w-12 md:h-16 md:w-16 sm:h-12 sm:w-12 rounded-full flex items-center justify-center bg-[rgba(0,255,255,0.01)]
             shadow-[0px_0px_8px_0px_rgba(248,248,248,0.25)_inset,0px_32px_24px_-16px_rgba(0,0,0,0.40)]">
-                        <skill.icon className="h-8 w-8 md:h-6 md:w-6 lg:h-8 lg:w-8 text-[rgba(0,255,255)]" />
+                        <skill.icon className="h-6 w-6 md:h-6 md:w-6 lg:h-8 lg:w-8 text-[rgba(0,255,255)]" />
                       </div>
                     </div>
                     {skill.name}

@@ -52,24 +52,27 @@ export const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="https://coursera.org/share/4fa9ea6b9bbd1bc202dc6751b3231e95"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       Meta Front-End Developer
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="../page/unavailable.tsx"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       Meta React Native
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="../page/unavailable.tsx"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       Harvard CS50x
                     </a>
@@ -83,24 +86,27 @@ export const Footer = () => {
                 <ul className="mt-2 space-y-2">
                   <li>
                     <a
-                      href="/"
+                      href="https://pupeims.webflow.io/"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       PUPEIMS
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://little-lemon-zeta-liard.vercel.app/"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       Little Lemon
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://john-patrick-felicia.vercel.app/"
                       className="transition-colors duration-300 text-white hover:text-[rgba(0,255,255)]"
+                      target="_blank"
                     >
                       First Website Portfolio
                     </a>

@@ -88,7 +88,7 @@ export const Skillset = () => {
           on <br/>Learning . Progressing . Exploring .
         </h2>
         <p className="font-sans text-base text-zinc-400 md:text-lg">
-          A comprehensive compilation of the skills and tools I've acquired and utilized throughout my journey as a developer.
+          A comprehensive compilation of the skills and tools I&apos;ve acquired and utilized throughout my journey as a developer.
         </p>
       </div>
 

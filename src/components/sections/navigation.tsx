@@ -6,7 +6,6 @@ import {
   IconMessage,
   IconMessageCode,
   IconTool,
-  IconUserCircle,
 } from "@tabler/icons-react";
 
 export function Navigation() {

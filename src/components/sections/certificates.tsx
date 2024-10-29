@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "Meta React Native",
     description:
-      "A Specialization in React Native prepared by Meta (facebook) that is consist of 8 course series. I have finished 6 courses and there is 2 more courses to go. Wish me luck!",
+      "A Specialization in React Native prepared by Meta (facebook) that is consist of 8 course series. I have finished 6 courses and there are 2 more courses to go. Wish me luck!",
     link: "../page/unavailable.tsx",
     badge: "In Progress",
   },

@@ -35,7 +35,7 @@ export function Projects() {
             ✅ Functional customer reservation application.
           </div>
         </div>
-        <div className="text-xs md:text-base lg:text-lg card card-compact bg-black w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)] mb-4">
+        <div className="text-xs md:text-base lg:text-lg card card-compact bg-black w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)] mb-20">
           <figure className="relative group">
             <a href="https://little-lemon-zeta-liard.vercel.app/" target="_blank">
               <Image src={LittleLemon} alt="Little Lemon" className="w-full transition duration-300 ease-in-out group-hover:blur-sm"/>
@@ -81,7 +81,7 @@ export function Projects() {
             ✅ Created using React, JavaScript, HTML and CSS
           </div>
         </div>
-        <div className="text-xs md:text-base lg:text-lg card card-compact bg-black w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)] mb-4">
+        <div className="text-xs md:text-base lg:text-lg card card-compact bg-black w-96 shadow-xl max-w-xl w-full mx-auto border border-[rgba(0,255,255,0.50)] mb-8">
           <figure className="relative group">
             <a href="https://john-patrick-felicia.vercel.app/" target="_blank">
               <Image src={Portfolio} alt="Portfolio" className="w-full transition duration-300 ease-in-out group-hover:blur-sm"/>
@@ -167,6 +167,9 @@ export function Projects() {
           Contributed four solution components on Front-End Mentor, which provided an excellent opportunity to practice responsiveness and utilize a variety of development tools. The collaborative environment with talented classmates enriched the learning experience, making it a fantastic way to hone my skills and explore new techniques in web development.
           </p>
           <div className="mb-8">
+            <p className="text-[rgba(0,255,255)] text-xs md:text-sm font-normal mt-4">
+            Live Previews:
+            </p>
             <div className="flex gap-2 items-center text-zinc-400 dark:text-neutral-300 text-xs md:text-sm hover:text-[rgba(0,255,255)]">
             <IconLink /><a href="https://www.frontendmentor.io/profile/Hiraeight" target="_blank" title="QR Code Component">QR Code Component</a>
             </div>

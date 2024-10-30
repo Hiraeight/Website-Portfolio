@@ -8,6 +8,7 @@ import { Header } from "@/components/sections/header";
 import { Certificates } from "@/components/sections/certificates";
 import { Projects } from "@/components/sections/projects";
 import { Skillset } from "@/components/sections/skillset";
+import { AboutMe } from '@/components/sections/about-me';
 import Contact from '@/components/sections/contact';
 import { Footer } from '@/components/sections/footer';
 
@@ -35,6 +36,7 @@ export default function Home() {
         <Certificates />
         <Projects />
         <Skillset />
+        <AboutMe />
         <Contact />
         <Footer />
       </main>

@@ -1,5 +1,17 @@
 
 export const Footer = () => {
+  
+  const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetElement = document.querySelector(href);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.getBoundingClientRect().top + window.pageYOffset,
+        behavior: "smooth",
+      });
+    }
+  };
+
     return (
       <div className="relative mt-16 bg-zinc-900">
         <svg
@@ -17,8 +29,9 @@ export const Footer = () => {
             <div className="md:max-w-md lg:col-span-2">
               <a
                 href="/"
-                aria-label="Go home"
-                title="Company"
+                aria-label="Go to top"
+                title="JP Dev"
+                onClick={(e) => handleSmoothScroll(e, "#top-nav")}
                 className="inline-flex items-center"
               >
                 <svg
@@ -36,7 +49,7 @@ export const Footer = () => {
                     <path d="M172 222.5 c0 -0.3 6.2 -11.2 13.8 -24.3 7.6 -13 32.6 -57.1 55.7 -97.9 l42 -74.3 20.8 0 20.7 0 0 1 c0 0.6 -10 18.7 -22.3 40.3 -12.2 21.5 -37.1 65.4 -55.2 97.5 l-33 58.2 -21.2 0 -21.3 0 0 -0.5z" className="fill-[rgba(0,255,255)]"/>
                 </svg>
                 <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                  JP .DEV
+                  JP.DEV
                 </span>
               </a>
               <div className="mt-4 lg:max-w-sm">

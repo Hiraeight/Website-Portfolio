@@ -17,9 +17,9 @@ export const TopNavigation = () => {
         return (
           <div id="top-nav" className="bg-zinc-900">
             <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-              <div className="px-4 py-5 relative flex items-center justify-between">
+              <div className="px-4 py-5 md:px-8 lg:px-8  relative flex items-center justify-between">
                 <a
-                href="/"
+                href="#top-nav"
                 aria-label="Go home"
                 title="JP Dev"
                 className="inline-flex items-center"
@@ -29,7 +29,7 @@ export const TopNavigation = () => {
                     version="1.0" 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 500 250"
-                    className="w-10 lg:w-20 fill-white"
+                    className="w-10 fill-white"
                     preserveAspectRatio="xMidYMid meet"
                 >
                     <path d="M157.5 219.5 c-3.8 -2.3 -20 -11.9 -36 -21.2 -15.9 -9.3 -39.2 -23 -51.7 -30.3 -12.6 -7.3 -22.8 -13.6 -22.8 -14 0 -0.9 34.7 -21 36.2 -21 1.2 0 79.5 45.6 81.6 47.5 l1.4 1.3 -0.9 20.9 -0.8 21 -7 -4.2z"/>
@@ -39,7 +39,7 @@ export const TopNavigation = () => {
                     <path d="M172 222.5 c0 -0.3 6.2 -11.2 13.8 -24.3 7.6 -13 32.6 -57.1 55.7 -97.9 l42 -74.3 20.8 0 20.7 0 0 1 c0 0.6 -10 18.7 -22.3 40.3 -12.2 21.5 -37.1 65.4 -55.2 97.5 l-33 58.2 -21.2 0 -21.3 0 0 -0.5z" className="fill-[rgba(0,255,255)]"/>
                 </svg>
                 <span className="ml-2 text-sm lg:text-xl font-bold tracking-wide text-gray-100 uppercase">
-                  JP .DEV
+                  JP.DEV
                 </span>
               </a>
                 <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -77,13 +77,13 @@ export const TopNavigation = () => {
                   </li>
                   <li>
                     <a
-                      href="#about-us"
-                      aria-label="About us"
-                      title="About us"
-                      onClick={(e) => handleSmoothScroll(e, "#about-us")}
+                      href="#about-me"
+                      aria-label="About me"
+                      title="About me"
+                      onClick={(e) => handleSmoothScroll(e, "#about-me")}
                       className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-[rgba(0,255,255)]"
                     >
-                      About us
+                      About me
                     </a>
                   </li>
                   <li>
@@ -137,13 +137,13 @@ export const TopNavigation = () => {
                   </button>
                   {isMenuOpen && (
                     <div className="absolute top-0 left-0 w-screen z-50">
-                      <div className="p-5 bg-zinc-900 shadow-sm">
+                      <div className="px-4 py-7 md:px-8 lg:px-8 bg-zinc-900 shadow-sm">
                         <div className="flex items-center justify-between mb-4">
                           <div>
                             <a
                                 href="/"
                                 aria-label="Go home"
-                                title="Company"
+                                title="JP Dev"
                                 className="inline-flex items-center"
                             >
                                 <svg
@@ -151,7 +151,7 @@ export const TopNavigation = () => {
                                     version="1.0" 
                                     xmlns="http://www.w3.org/2000/svg" 
                                     viewBox="0 0 500 250"
-                                    className="w-20 fill-white"
+                                    className="w-10 lg:w-20 fill-white"
                                     preserveAspectRatio="xMidYMid meet"
                                 >
                                     <path d="M157.5 219.5 c-3.8 -2.3 -20 -11.9 -36 -21.2 -15.9 -9.3 -39.2 -23 -51.7 -30.3 -12.6 -7.3 -22.8 -13.6 -22.8 -14 0 -0.9 34.7 -21 36.2 -21 1.2 0 79.5 45.6 81.6 47.5 l1.4 1.3 -0.9 20.9 -0.8 21 -7 -4.2z"/>
@@ -160,8 +160,8 @@ export const TopNavigation = () => {
                                     <path d="M374.8 95.2 l-40.7 -23.7 -0.1 -21.7 0 -21.8 0.6 0 c0.3 0 8.7 4.8 18.7 10.7 30 17.5 87.7 51.4 94.5 55.3 l6.4 3.7 -14.4 8.3 c-7.8 4.6 -16.1 9.3 -18.4 10.6 -2.2 1.3 -4.5 2.4 -5 2.4 -0.5 0 -19.2 -10.7 -41.6 -23.8z"/>
                                     <path d="M172 222.5 c0 -0.3 6.2 -11.2 13.8 -24.3 7.6 -13 32.6 -57.1 55.7 -97.9 l42 -74.3 20.8 0 20.7 0 0 1 c0 0.6 -10 18.7 -22.3 40.3 -12.2 21.5 -37.1 65.4 -55.2 97.5 l-33 58.2 -21.2 0 -21.3 0 0 -0.5z" className="fill-[rgba(0,255,255)]"/>
                                 </svg>
-                                <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-                                JP .DEV
+                                <span className="ml-2 text-sm lg:text-xl font-bold tracking-wide text-gray-100 uppercase">
+                                JP.DEV
                                 </span>
                             </a>
                           </div>
@@ -169,7 +169,7 @@ export const TopNavigation = () => {
                             <button
                               aria-label="Close Menu"
                               title="Close Menu"
-                              className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                              className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-zinc-500 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               <svg className="w-5 text-white" viewBox="0 0 24 24">
@@ -217,13 +217,13 @@ export const TopNavigation = () => {
                             </li>
                             <li>
                                 <a
-                                href="#about-us"
-                                aria-label="About us"
-                                title="About us"
-                                onClick={(e) => handleSmoothScroll(e, "#about-us")}
+                                href="#about-me"
+                                aria-label="About me"
+                                title="About me"
+                                onClick={(e) => handleSmoothScroll(e, "#about-me")}
                                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-[rgba(0,255,255)]"
                                 >
-                                About us
+                                About me
                                 </a>
                             </li>
                             <li>

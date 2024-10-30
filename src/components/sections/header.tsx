@@ -23,7 +23,7 @@ export function Header() {
         </p>
         <div className="flex items-center" />
       </div>
-      <h1 className="md:text-5xl text-1xl sm:text-2xl lg:text-7xl font-bold text-center text-white relative z-20">
+      <h1 className="md:text-5xl text-2xl sm:text-2xl lg:text-7xl font-bold text-center text-white relative z-20">
         Joh
         <span className="inline-block relative">
           {/* Gradient from left (white) to right (rgba(0,255,255)) */}

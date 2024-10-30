@@ -7,6 +7,7 @@ import {
   IconMessageCode,
   IconTool,
   IconFileCv,
+  IconUserCircle,
 } from "@tabler/icons-react";
 
 export function Navigation() {
@@ -42,6 +43,11 @@ export function Navigation() {
       title: "Tools",
       icon: <IconTool className="h-full w-full text-white dark:text-neutral-300" />,
       href: "#skills",
+    },
+    {
+      title: "About Me",
+      icon: <IconUserCircle className="h-full w-full text-white dark:text-neutral-300" />,
+      href: "#about-me",
     },
     {
       title: "Contact Me",

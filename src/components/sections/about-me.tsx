@@ -60,11 +60,11 @@ export const AboutMe = () => {
                     Front-End Developer • UI/UX Designer • Experienced Email Marketing Specialist
                 </p>
                 <p className="text-base font-sans text-zinc-400 md:text-lg">
-                    Hello! I'm a passionate developer with a strong focus on <span className="italic text-white">front-end development</span> and a goal to become a <span className="italic text-white">full-stack developer</span> in the future. I've completed online courses from Meta that specialize in front-end technologies, equipping me with the skills to create engaging and user-friendly interfaces.
+                    Hello! I&apos;m a passionate developer with a strong focus on <span className="italic text-white">front-end development</span> and a goal to become a <span className="italic text-white">full-stack developer</span> in the future. I&apos;ve completed online courses from Meta that specialize in front-end technologies, equipping me with the skills to create engaging and user-friendly interfaces.
                     <br/><br/>
                     I hold an <span className="italic text-white">Associate of Science in Information Technology</span>, and I have hands-on experience as an email marketing specialist, where I frequently utilized markup languages like HTML and CSS to craft effective campaigns.
                     <br/><br/>
-                    When I'm not coding, I enjoy spending time with my beloved cat and playing music on the guitar and piano. Recently, I’ve developed a keen interest in web development, and I’m excited to continue expanding my skills in this field!
+                    When I&apos;m not coding, I enjoy spending time with my beloved cat and playing music on the guitar and piano. Recently, I&apos;ve developed a keen interest in web development, and I&apos;m excited to continue expanding my skills in this field!
                 </p>
             </div>
             <div>

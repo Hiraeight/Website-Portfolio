@@ -39,7 +39,7 @@ export const projects = [
     title: "Harvard CS50x",
     description:
       "Also known as 'Introduction to Computer Science', is a well-known online course that provides a comprehensive introduction to the fundamentals of computer science. 1st week done!",
-    link: "",
+    link: "../page/unavailable.tsx",
     badge: "In Progress",
   },
 ];

@@ -101,7 +101,7 @@ export const TopNavigation = () => {
                 <ul className="flex items-center hidden space-x-8 lg:flex">
                   <li>
                     <a
-                      href="https://www.canva.com/design/DAGTt3AwjO8/WJzzYpbNOH4imTEliwY0ug/view?utm_content=DAGTt3AwjO8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                      href="https://www.canva.com/design/DAGTkLGA8vs/jfuzsMyDPOGfmq52KQldHg/view?utm_content=DAGTkLGA8vs&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                       className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white hover:text-[rgba(0,255,255)] transition duration-200 rounded shadow-md bg-zinc-900 hover:bg-black focus:shadow-outline focus:outline-none"
                       aria-label="Resume"
                       title="Resume"

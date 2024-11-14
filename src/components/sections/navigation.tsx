@@ -59,7 +59,7 @@ export function Navigation() {
   const externalLink = {
     title: "My CV",
     icon: <IconFileCv className="h-full w-full text-white dark:text-neutral-300" />,
-    href: "https://www.canva.com/design/DAGTt3AwjO8/WJzzYpbNOH4imTEliwY0ug/view?utm_content=DAGTt3AwjO8&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+    href: "https://www.canva.com/design/DAGTkLGA8vs/jfuzsMyDPOGfmq52KQldHg/view?utm_content=DAGTkLGA8vs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   };
 
   return (

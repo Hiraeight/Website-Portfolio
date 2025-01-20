@@ -29,16 +29,16 @@ export const projects = [
     badge: "Completed",
   },
   {
+    title: "Career Essentials in Software Development",
+    description:
+      "This course provides a comprehensive overview of what it's like to be a programmer and the essential skills needed for a career in software development.",
+    link: "https://www.linkedin.com/learning/certificates/e299cfa1d8c667ac63bf5d9a4bf3bd064ef0605f2c43ece0f249bcf5fcac00c9",
+    badge: "Completed",
+  },
+  {
     title: "Meta React Native",
     description:
       "A Specialization in React Native prepared by Meta (facebook) that is consist of 8 course series. I have finished 6 courses and there are 2 more courses to go. Wish me luck!",
-    link: "../page/unavailable.tsx",
-    badge: "In Progress",
-  },
-  {
-    title: "Harvard CS50x",
-    description:
-      "Also known as 'Introduction to Computer Science', is a well-known online course that provides a comprehensive introduction to the fundamentals of computer science. 1st week done!",
     link: "../page/unavailable.tsx",
     badge: "In Progress",
   },

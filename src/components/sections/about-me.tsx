@@ -69,7 +69,7 @@ export const AboutMe = () => {
             </div>
             <div>
               <a
-                href="https://www.canva.com/design/DAGTt3AwjO8/WJzzYpbNOH4imTEliwY0ug/view?utm_content=DAGTt3AwjO8&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                href="https://www.canva.com/design/DAGTt3AwjO8/WJzzYpbNOH4imTEliwY0ug/view"
                 aria-label="Check out my resume"
                 target="_blank"
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-[rgba(0,255,255)] hover:text-glow"

@@ -36,10 +36,31 @@ export const projects = [
     badge: "Completed",
   },
   {
-    title: "Meta React Native",
+    title: "JavaScript Foundations Professional Certificate by Mozilla",
     description:
-      "A Specialization in React Native prepared by Meta (facebook) that is consist of 8 course series. I have finished 6 courses and there are 2 more courses to go. Wish me luck!",
-    link: "../page/unavailable.tsx",
+      "These courses have equipped me with essential skills to master the language, from fundamental concepts like variables and functions to advanced topics such as asynchronous tasks and DOM scripting.",
+    link: "https://www.linkedin.com/learning/certificates/1c7c1deafa837445eb787f514dbeac810de6d2e7847873d205c8b13205bf9d09",
+    badge: "Completed",
+  },
+  {
+    title: "Career Essentials in GitHub Professional Certificate",
+    description:
+      "These courses teached me the skills to enrich a GitHub portfolio and elevate a profile in today's competitive job market.",
+    link: "https://www.linkedin.com/learning/certificates/b287c1e27c8be608ad9cee3d514fe87535c0f25d11535ed33af0499f4c063b24",
+    badge: "Completed",
+  },
+  {
+    title: "Learning in progress, stay tuned!",
+    description:
+      "Searching for a new course to learn and improve my skills.",
+    link: "#",
+    badge: "In Progress",
+  },
+  {
+    title: "Learning in progress, stay tuned!",
+    description:
+      "Searching for a new course to learn and improve my skills.",
+    link: "#",
     badge: "In Progress",
   },
 ];
